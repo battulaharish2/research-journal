@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "interspeech-2025",
+    "title": "Speech research, then a little exploring.",
+    "conference": "INTERSPEECH 2025",
+    "location": "Rotterdam, Netherlands",
+    "year": "2025",
+    "category": "Conference journal",
+    "folder": "Interspeech_2025_netherlands",
+    "cover": "20250819_135348.jpg",
+    "summary": "Poster conversations, conference sessions and moments from the Netherlands.",
+    "paragraphs": [
+      "INTERSPEECH 2025 in Rotterdam, Netherlands brought together the research and travel parts of this trip. The photographs capture the venue, my poster and the conversations around it.",
+      "The most memorable part was interacting with people who stopped at my poster. Explaining the paper and answering their questions made the work feel like a conversation. I especially valued the input and feedback they shared about the research.",
+      "After the conference sessions, I spent time visiting places nearby and exploring beyond the venue. Those moments became another part of the experience, alongside the research discussions.",
+      "Related research: Heart Rate as a Proxy Measure to Assess Human Confidence in Spoken Speech."
+    ],
+    "story_pending": false,
+    "captions": {
+      "20250817_144640.jpg": "The INTERSPEECH welcome display.",
+      "20250819_145333.jpg": "A conversation around a research poster.",
+      "20250818_185421.jpg": "A city view beside the Erasmus Bridge.",
+      "20250819_205136.jpg": "Sunset over the sea.",
+      "20250820_152608.jpg": "An aquarium visit during the trip.",
+      "20250819_135348.jpg": "Explaining my research and answering questions at the INTERSPEECH poster."
+    }
+  },
+  {
+    "slug": "eusipco-2024",
+    "title": "From the poster hall to the streets of France.",
+    "conference": "EUSIPCO 2024",
+    "location": "Lyon, France",
+    "year": "2024",
+    "category": "Conference journal",
+    "folder": "Eusipco_2024_France",
+    "cover": "20240829_114053.jpg",
+    "summary": "A photo collection from EUSIPCO in Lyon, with travel moments in Paris.",
+    "paragraphs": [
+      "EUSIPCO 2024 in Lyon, France brought together the research and travel parts of this trip. The photographs capture the venue, my poster and the conversations around it.",
+      "The most memorable part was interacting with people who stopped at my poster. Explaining the paper and answering their questions made the work feel like a conversation. I especially valued the input and feedback they shared about the research.",
+      "After the conference sessions, I spent time visiting places nearby and exploring beyond the venue. Those moments became another part of the experience, alongside the research discussions.",
+      "Related research: Heart Rate from Read-Speech Influenced by Physical Exercise."
+    ],
+    "story_pending": false,
+    "captions": {
+      "20240828_123214.jpg": "Inside the EUSIPCO conference venue.",
+      "20240829_114053.jpg": "At the research poster.",
+      "20240830_102044.jpg": "A visit to the Arc de Triomphe in Paris.",
+      "20240830_104848.jpg": "The Eiffel Tower, Paris."
+    }
+  }
+]
