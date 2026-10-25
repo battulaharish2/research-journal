@@ -17,7 +17,7 @@ def build_research():
     title = 'Learning from Heart Sounds'
     summary = 'Interpretable acoustic patterns, measurement uncertainty, and generalization across recording conditions.'
     text = (ROOT / 'content/heart-sounds.html').read_text(encoding='utf-8')
-    body = f'''<div class="article-head"><a class="back" href="../index.html#research">← Back to research</a><p class="eyebrow">Ongoing research / Biomedical signal analysis</p><h1>{title}</h1><p class="lead">I am exploring whether heart sounds offer useful clues about cardiovascular health.</p></div><article class="article-copy">{text}</article>'''
+    body = f'''<div class="article-head"><a class="back" href="../index.html#research">← Back to research</a><p class="eyebrow">Ongoing research / Biomedical signal analysis</p><h1>{title}</h1><p class="lead">I am studying phonocardiogram (PCG) recordings from the <a href="https://physionet.org/content/challenge-2016/1.0.0/">PhysioNet/CinC Challenge 2016 dataset</a>, focusing on cases identified as coronary artery disease (CAD) in its metadata.</p></div><article class="article-copy">{text}</article>'''
     folder = OUT / 'learning-from-heart-sounds'
     folder.mkdir(parents=True, exist_ok=True)
     (folder / 'index.html').write_text(page(title, body, '../'), encoding='utf-8')
