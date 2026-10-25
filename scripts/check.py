@@ -44,4 +44,10 @@ for image in images:
         assert not im.getexif(), image
         assert max(im.size) <= 1600
 assert len(posts) == 2
-print('PASS: 3 pages; all local links and anchors; 30 gallery photos; no image EXIF; bounded dimensions.')
+research_page = OUT / 'learning-from-heart-sounds/index.html'
+research = Links(); research.feed(research_page.read_text(encoding='utf-8'))
+home = Links(); home.feed((OUT / 'index.html').read_text(encoding='utf-8'))
+assert './learning-from-heart-sounds/index.html' in home.links
+assert research.photo_buttons == 0
+assert 'Ongoing research' in research_page.read_text(encoding='utf-8')
+print(f'PASS: {len(list(OUT.rglob("*.html")))} pages; research entry linked; all local links and anchors; 30 gallery photos; no image EXIF; bounded dimensions.')
